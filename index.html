@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+
+        <div class="left">
+            <div class="header">
+                <h2>Create Banking Account</h2>
+            </div>
+            <div class="form">
+                <form id="first">
+                  <input type="text" placeholder="enter name" id="accountName" class="inputlen">
+                  <input type="number" placeholder="enter AccountNumber" id="accountNumber" class="inputlen">
+                  <input type="number" placeholder="enter balance" id="balance" class="inputlen">
+                  <button>Create Account</button>
+                </form>
+            </div>
+            <br>
+            <div class="form">
+                <form id="second">
+                  <input type="number" placeholder="enter AccountNumber" id="depositAccountNumber" class="inputlen">
+                  <input type="number" placeholder="enter balance" id="depositBalance" class="inputlen">
+                  <div class="btn">
+                    <button>Deposit</button>
+                  </div>
+                 
+                </form>
+            </div>
+            <br>
+            <div class="form">
+                <form id="third">
+                  <input type="number" placeholder="enter AccountNumber" id="withdrawAccountNumber" class="inputlen">
+                  <input type="number" placeholder="enter balance" id="withdrawBalance" class="inputlen">
+                  <div class="btn">
+                    <button>Withdraw</button>
+                  </div>
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <h2> Show Banking Account</h2>
+            </div>
+            <div class="data">
+                  <table>
+                    <tr>
+                        <td>Name</td>
+                        <td>AccountNumber</td>
+                        <td>Balance</td>
+                    </tr>
+                    <tr>
+                        <td id="n1"></td>
+                        <td id="a1"></td>
+                        <td id="b1"></td>
+                    </tr>
+                    <tr>
+                        <td id="n2"></td>
+                        <td id="a2"></td>
+                        <td id="b2"></td>
+                    </tr>
+                    <tr>
+                        <td id="n3"></td>
+                        <td id="a3"> </td>
+                        <td id="b3"></td>
+                    </tr>
+                    <tr>
+                        <td id="n4"></td>
+                        <td id="a4"></td>
+                        <td id="b4"></td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
